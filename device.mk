@@ -45,10 +45,14 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio-impl \
     android.hardware.soundtrigger@2.3-impl \
     audio.bluetooth.default \
+    audio.primary.taro \
     audio.r_submix.default \
     audio.usb.default \
     audioadsprpcd \
     libaudiopreprocessing \
+    lib_bt_aptx \
+    lib_bt_ble \
+    lib_bt_bundle \
     libagm_compress_plugin \
     libagm_mixer_plugin \
     libagmmixer \
@@ -63,11 +67,10 @@ PRODUCT_PACKAGES += \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
-    libsndcardparser \
     libvisualizer \
     libvolumelistener \
-    vendor.qti.hardware.AGMIPC@1.0-service \
-    vendor.qti.hardware.pal@1.0-impl
+    sound_trigger.primary.taro \
+    vendor.qti.hardware.AGMIPC@1.0-service
 
 AUDIO_HAL_DIR := hardware/qcom-caf/sm8450/audio/primary-hal
 
