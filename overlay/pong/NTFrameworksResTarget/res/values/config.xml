@@ -471,9 +471,6 @@
     <!-- Enable Zram writeback feature to allow unused pages in zram be written to flash. -->
     <bool name="config_zramWriteback">true</bool>
 
-    <!-- Pixel pitch of the device. um/px -->
-    <item name="pixel_pitch" format="float" type="dimen">64.51</item>
-
     <!-- Flag indicating whether the surfaceflinger has limited
          alpha compositing functionality in hardware.  If set, the window
          manager will disable alpha trasformation in animations where not
