@@ -273,3 +273,4 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Include the proprietary files BoardConfig.
 include vendor/nothing/Pong/BoardConfigVendor.mk
+BUILD_BROKEN_DUP_RULES := true
