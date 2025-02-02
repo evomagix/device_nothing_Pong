@@ -474,4 +474,7 @@
     <!-- Pixel pitch of the device. um/px -->
     <item name="pixel_pitch" format="float" type="dimen">64.51</item>
 
+    <!-- CPU temperature -->
+    <integer name="config_sysCPUTempMultiplier">1000</integer>
+
 </resources>
