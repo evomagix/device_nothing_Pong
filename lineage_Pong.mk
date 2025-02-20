@@ -24,6 +24,12 @@ PRODUCT_CHARACTERISTICS := nosdcard
 
 PRODUCT_GMS_CLIENTID_BASE := android-nothing
 
+AXION_CAMERA_REAR_INFO := 50,50
+AXION_CAMERA_FRONT_INFO := 32
+WITH_GMS := true
+PRODUCT_NO_CAMERA := false
+TARGET_INCLUDE_VIPERFX := false
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="Pong-user 12 SKQ1.240903.001 2501131723 release-keys" \
     BuildFingerprint=Nothing/Pong/Pong:12/SKQ1.240903.001/2501131723:user/release-keys \
