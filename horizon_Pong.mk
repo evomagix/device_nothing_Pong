@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/nothing/Pong/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
+$(call inherit-product, vendor/horizon/config/common_full_phone.mk)
 
 PRODUCT_NAME := infinity_Pong
 PRODUCT_DEVICE := Pong
@@ -51,3 +51,15 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=A065 \
     SystemDevice=Pong \
     SystemName=Pong
+
+# Horizon
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_ENABLE_BLUR := true
+# Gapps
+WITH_GMS := true
+
+# Maintainer
+HORIZON_MAINTAINER := leonevo
+HORIZON_BUILD_TYPE := UNOFFICIAL

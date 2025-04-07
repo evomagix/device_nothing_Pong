@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/infinity_Pong.mk
+    $(LOCAL_DIR)/horizon_Pong.mk
 
 COMMON_LUNCH_CHOICES := \
-    infinity_Pong-user \
-    infinity_Pong-userdebug \
-    infinity_Pong-eng
+    horizon_Pong-user \
+    horizon_Pong-userdebug \
+    horizon_Pong-eng
